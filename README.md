@@ -1,4 +1,4 @@
-# kokoro-onnx-windows
+# kokoro-onnx-gui
 
 ### Original repo by thewh1teagle. This attempts to add an automatic way to install on windows and also features an optional gui. 
 
