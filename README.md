@@ -1,6 +1,6 @@
 # kokoro-onnx-windows
 
-### This (hopefully) adds a easy way to install on windows and also features an optional gui. 
+### This tries to add an easy way to install on windows and also features an optional gui. 
 
 TTS with onnx runtime based on [Kokoro-TTS](https://huggingface.co/spaces/hexgrad/Kokoro-TTS)
 
@@ -24,6 +24,9 @@ https://github.com/user-attachments/assets/00ca06e8-bbbd-4e08-bfb7-23c0acb10ef9
 ## Usage
 - Run **run_example.bat** to see an example audio file generated from text
 - Run **kokoro_gui.bat** to launch gui where you can easily set input text/voice/save name and convert the the text-to-audio file
+
+## GUI Preview
+![gui1](examples/gui_preview.png)
 
 <details>
 <summary>Orignal setup instructions</summary>
