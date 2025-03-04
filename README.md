@@ -1,6 +1,6 @@
 # kokoro-onnx-windows
 
-This is a fork of thewh1teagle's onnx release. This is an attempt to add an easy way to install on windows and features an optional gui. 
+### This (hopefully) adds a easy way to install on windows and also features an optional gui. 
 
 TTS with onnx runtime based on [Kokoro-TTS](https://huggingface.co/spaces/hexgrad/Kokoro-TTS)
 
