@@ -1,6 +1,6 @@
 # kokoro-onnx-windows
 
-### This attempts to add an easy way to install on windows and also features an optional gui. 
+### This attempts to add an automatic way to install on windows and also features an optional gui. 
 
 TTS with onnx runtime based on [Kokoro-TTS](https://huggingface.co/spaces/hexgrad/Kokoro-TTS)
 
@@ -20,6 +20,16 @@ https://github.com/user-attachments/assets/00ca06e8-bbbd-4e08-bfb7-23c0acb10ef9
    - Check the 'Add Python 3.* to PATH' box [during installation](audio2vmd/img/pathbox.jpg)
 2) Download [kokoro-onnx-windows](https://github.com/EliseWindbloom/kokoro-onnx-windows/archive/refs/heads/main.zip)
 3) Unzip kokoro-onnx-windows and run "install.bat" (Do not run as admin) to install automatically, this may take awhile to download all the required files.
+
+## Install manually
+Alternately, you can install it manually using the following cmd command
+```
+python -m venv venv
+call venv\Scripts\activate
+pip install . misaki[en] soundfile pygame ttkbootstrap
+powershell -Command "Invoke-WebRequest -Uri 'https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/kokoro-v1.0.onnx' -OutFile 'kokoro-v1.0.onnx'" 2>nul
+powershell -Command "Invoke-WebRequest -Uri 'https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin' -OutFile 'voices-v1.0.bin'" 2>nul
+```
 
 ## Usage
 - Run **run_example.bat** to see an example audio file generated from text
