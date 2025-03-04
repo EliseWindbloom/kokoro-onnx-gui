@@ -1,6 +1,6 @@
 # kokoro-onnx-windows
 
-### This attempts to add an automatic way to install on windows and also features an optional gui. 
+### Original repo by thewh1teagle. This attempts to add an automatic way to install on windows and also features an optional gui. 
 
 TTS with onnx runtime based on [Kokoro-TTS](https://huggingface.co/spaces/hexgrad/Kokoro-TTS)
 
