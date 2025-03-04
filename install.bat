@@ -74,18 +74,6 @@ if not exist voices-v1.0.bin (
     echo voices-v1.0.bin already exists, skipping download.
 )
 
-:: Create a batch file to run the example
-echo Creating run_example.bat...
-(
-    echo @echo off
-    echo call venv\Scripts\activate
-    echo python examples\save.py
-    echo pause
-) > run_example.bat
-if %errorlevel% neq 0 (
-    echo WARNING: Failed to create run_example.bat. You can create it manually with the above commands.
-)
-
 :: Display completion message and usage instructions
 echo.
 echo Installation completed successfully!
@@ -93,19 +81,18 @@ echo.
 echo ### Usage Instructions ###
 echo.
 echo **To run the example:**
-echo   - Navigate to the 'kokoro-onnx' folder.
 echo   - Double-click 'run_example.bat' to run the example script (examples\save.py).
 echo     This will generate an audio file using the default settings.
 echo.
 echo **To use kokoro-onnx in your own scripts:**
 echo   1. Open a Command Prompt.
-echo   2. Navigate to the 'kokoro-onnx' folder by typing: cd %CD%
+echo   2. Navigate to the 'kokoro-onnx-windows' folder by typing: cd %CD%
 echo   3. Activate the virtual environment by running: venv\Scripts\activate
 echo   4. Write and run your Python scripts using the 'kokoro_onnx' package.
 echo      Example: python -c "import kokoro_onnx; print('kokoro_onnx installed')"
 echo.
 echo **Optional: Improve Performance**
-echo   - For better performance (e.g., improved language support), install espeak-ng.
+echo   - For possible better performance (e.g., improved language support), install espeak-ng.
 echo   - Download and install it from: https://github.com/espeak-ng/espeak-ng/releases
 echo   - Follow the instructions there to set it up on your system.
 echo.
