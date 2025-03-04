@@ -25,9 +25,6 @@ https://github.com/user-attachments/assets/00ca06e8-bbbd-4e08-bfb7-23c0acb10ef9
 - Run **run_example.bat** to see an example audio file generated from text
 - Run **kokoro_gui.bat** to launch gui where you can easily set input text/voice/save name and convert the the text-to-audio file
 
-## GUI Preview
-![gui1](examples/gui_preview.png)
-
 <details>
 <summary>Orignal setup instructions</summary>
 ## Setup
@@ -75,6 +72,9 @@ See [examples](examples)
 See the latest voices and languages in [Kokoro-82M/VOICES.md](https://huggingface.co/hexgrad/Kokoro-82M/blob/main/VOICES.md)
 
 Note: It's recommend to use misaki g2p package from v1.0, see [examples](examples)
+
+## GUI Preview
+![gui1](examples/gui_preview.png)
 
 ## Contribute
 
