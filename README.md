@@ -31,10 +31,6 @@ powershell -Command "Invoke-WebRequest -Uri 'https://github.com/thewh1teagle/kok
 powershell -Command "Invoke-WebRequest -Uri 'https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin' -OutFile 'voices-v1.0.bin'" 2>nul
 ```
 
-## Usage
-- Run **run_example.bat** to see an example audio file generated from text
-- Run **kokoro_gui.bat** to launch gui where you can easily set input text/voice/save name and convert the the text-to-audio file
-
 <details>
 <summary>Orignal setup instructions</summary>
 ## Setup
@@ -72,6 +68,10 @@ You can edit the text in `hello.py`
 That's it! `audio.wav` should be created.
 
 </details>
+
+## Usage
+- Run **run_example.bat** to see an example audio file generated from text
+- Run **kokoro_gui.bat** to launch gui where you can easily set input text/voice/save name and convert the the text-to-audio file
 
 ## Examples
 
