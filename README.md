@@ -19,7 +19,7 @@ https://github.com/user-attachments/assets/00ca06e8-bbbd-4e08-bfb7-23c0acb10ef9
 1) Download and install [Python 3.8 or higher](https://www.python.org/downloads/release/python-3106/)  
    - Check the 'Add Python 3.* to PATH' box [during installation](audio2vmd/img/pathbox.jpg)
 2) Download [kokoro-onnx-windows](https://github.com/EliseWindbloom/kokoro-onnx-windows/archive/refs/heads/main.zip)
-3) Unzip kokoro-onnx-windows and run "install.bat" (Do not run as admin) to install automatically, this may take awhile to download all the required files.
+3) Unzip kokoro-onnx-windows and run "install.bat" to install automatically, this may take awhile to download all the required files.
 
 ## Install manually
 Alternately, you can install it manually using the following cmd command
